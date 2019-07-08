@@ -18,7 +18,7 @@ body {
     width: 400px;
 }
 
-.banner h1 span{
+.banner h1 span {
     width: 10px;
     height: 10px;
     display: block;
@@ -38,28 +38,29 @@ div > h1 {
     font-family: 'Pacifico';
     font-size: 48px;
     position: relative;
-    margin-top: 0; 
+    margin-top: 0;
 }
-div nav{
+
+div nav {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     margin-bottom: 30px;
 }
-div a{
+
+div a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     margin: 4px;
-    
 }
 
-.banner p{
+.banner p {
     font-size: 20px;
     color: #fff;
 }
 
 @media (min-witdh: 1024px) {
-.banner {
+    .banner {
         padding: 0px 200px;
         height: 38vh;
     }
@@ -76,6 +77,7 @@ div a{
 .icones > a:hover {
     background-color: rgb(83, 198, 94);
 }
+
 
 /* section colunas */
 
@@ -96,24 +98,32 @@ div a{
     width: 40px;
     border-radius: 50px;
     padding: 20px;
-    
     -webkit-animation: rotate 1s linear 0s infinite alternate;
 }
 
+
 /* Animation img colunas */
+
 @-webkit-keyframes rotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(180deg);}
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
 }
+
+
 /* Animation img colunas */
 
 .colunas div p {
     font-size: 15px;
     color: grey;
-
 }
 
+
 /* Section video */
+
 .video {
     display: flex;
     justify-content: space-around;
@@ -127,7 +137,7 @@ div a{
     border-radius: 10px;
 }
 
-.video div:nth-child(1) p{
+.video div:nth-child(1) p {
     color: grey;
     font-size: 15px;
     padding-right: 80px;
@@ -136,7 +146,7 @@ div a{
 .video div:nth-child(1) input {
     background-color: #eee;
     width: 250px;
-    height:45px;
+    height: 45px;
     border-radius: 5px;
     border: none;
     margin: 0;
@@ -151,7 +161,9 @@ div a{
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
 }
 
+
 /* Button */
+
 .video div:nth-child(1) button {
     background-color: rgb(83, 198, 94);
     padding: 15px 15px;
@@ -159,13 +171,14 @@ div a{
     border: none;
     color: #eee;
     outline: none;
-    cursor: pointer;  
+    cursor: pointer;
     transition: 0.5s;
 }
 
 .video div:nth-child(1) button:hover {
     background-color: rgb(69, 231, 86);
 }
+
 
 /* section fotinhas */
 
@@ -182,11 +195,10 @@ div a{
     justify-items: center;
 }
 
-.imgs img{
+.imgs img {
     border: 1px solid rgb(83, 198, 94);
     border-radius: 50px;
     margin: 0px 8px;
-    
 }
 
 .fotinhas p {
@@ -197,7 +209,9 @@ div a{
     width: 50vw;
 }
 
+
 /* section footer */
+
 footer {
     display: flex;
     justify-content: center;
@@ -208,7 +222,7 @@ footer {
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.6);
 }
 
-footer div ul{
+footer div ul {
     display: flex;
     margin: 0;
 }
@@ -225,8 +239,9 @@ footer div a {
 }
 
 footer div a:hover {
-    color: rgb(83, 198, 94);   
+    color: rgb(83, 198, 94);
 }
+
 
 /* media */
 
@@ -234,19 +249,15 @@ footer div a:hover {
     .banner > img {
         display: none;
     }
-
     .banner {
         height: 60vh;
     }
-
     .player {
         display: none;
     }
-
     .banner > div {
         width: 300px;
     }
-
     .fotinhas > div {
         width: 35%;
     }
@@ -263,10 +274,10 @@ footer div a:hover {
         height: 150px;
         box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.6);
     }
-    footer div ul{
+    footer div ul {
         display: table-row;
         margin: 0;
-                }
+    }
     div nav {
         display: flex;
         justify-content: center;
@@ -274,4 +285,4 @@ footer div a:hover {
         margin-bottom: 30px;
         flex-direction: column;
     }
-    }
+}
